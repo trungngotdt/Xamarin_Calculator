@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\bin\Debug\netstandard2.0\Xamarin_Calculator.deps.json
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\bin\Debug\netstandard2.0\Xamarin_Calculator.dll
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\bin\Debug\netstandard2.0\Xamarin_Calculator.pdb
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\obj\Debug\netstandard2.0\Xamarin_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\obj\Debug\netstandard2.0\Xamarin_Calculator.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\obj\Debug\netstandard2.0\Xamarin_Calculator.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\obj\Debug\netstandard2.0\Xamarin_Calculator.dll
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\obj\Debug\netstandard2.0\Xamarin_Calculator.pdb
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\obj\Debug\netstandard2.0\Xamarin_Calculator.csprojAssemblyReference.cache

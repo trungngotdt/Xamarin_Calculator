@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Calculator.Views.MainPage"
+             Title="{Binding Title}" 
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms">
+    <ContentPage.Behaviors>
+        <b:EventToCommandBehavior EventName="Appearing"
+                                  Command="{Binding Loaded}"
+                                  CommandParameter="{x:Reference StacRoot}"/>
+        
+    </ContentPage.Behaviors>
+    <ScrollView Orientation="Horizontal"
+                x:Name="ScrvRoot" 
+                HorizontalOptions="Fill">
+        <StackLayout Orientation="Vertical"
+                     x:Name="StacRoot"
+                     HorizontalOptions="StartAndExpand"
+                     VerticalOptions="StartAndExpand">
+            
+            <Label x:Name="LbResult"
+                   BackgroundColor="Red"
+                   Text="{Binding Source={x:Reference ScrvRoot},Path=Width}"
+                   HeightRequest="100"
+                   WidthRequest="{Binding Source={x:Reference ScrvRoot},Path=Width}"/>
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
