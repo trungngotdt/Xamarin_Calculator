@@ -19,10 +19,20 @@ namespace Xamarin_Calculator.ViewModels
         {
             Title = "Main Page";
         }
-       
+
+        
         private DelegateCommand<Element> loaded;
         public DelegateCommand<Element> Loaded =>
-            loaded ?? (loaded = new DelegateCommand<Element>(ExecuteLoaded));
+            loaded ?? (loaded = new DelegateCommand<Element>(ExecuteLoaded, CanExecuteLoaded));
+
+        private bool CanExecuteLoaded(Element arg)
+        {
+            if ((arg as StackLayout)!=null&&(arg as StackLayout).Children!=null)
+            {
+                return true;
+            }
+            return false;
+        }
 
         void ExecuteLoaded(Element element)
         {

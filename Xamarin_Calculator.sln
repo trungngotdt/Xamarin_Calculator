@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Calculator", "Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.csproj", "{7B65581C-5266-4C14-8E08-55B63E858248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin_Calculator", "Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.csproj", "{7B65581C-5266-4C14-8E08-55B63E858248}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Calculator.Android", "Xamarin_Calculator\Xamarin_Calculator.Android\Xamarin_Calculator.Android.csproj", "{5EB1A746-6C4C-425C-9731-BF5782F85947}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Calculator.iOS", "Xamarin_Calculator\Xamarin_Calculator.iOS\Xamarin_Calculator.iOS.csproj", "{4C510657-5AA3-4F95-B5CA-0FAECF21CBCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Calculator.UWP", "Xamarin_Calculator\Xamarin_Calculator.UWP\Xamarin_Calculator.UWP.csproj", "{E2FCF487-E2B3-4905-A0AA-681E45E51E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Calculator.Wpf", "Xamarin_Calculator.Wpf\Xamarin_Calculator.Wpf.csproj", "{44CA5790-C4A7-4477-BB37-4885BB8478BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +253,54 @@ Global
 		{E2FCF487-E2B3-4905-A0AA-681E45E51E77}.Release|x86.ActiveCfg = Release|x86
 		{E2FCF487-E2B3-4905-A0AA-681E45E51E77}.Release|x86.Build.0 = Release|x86
 		{E2FCF487-E2B3-4905-A0AA-681E45E51E77}.Release|x86.Deploy.0 = Release|x86
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|ARM.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|x64.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|x64.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|ARM.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|x64.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.AppStore|x86.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|ARM.Build.0 = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|x64.Build.0 = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Debug|x86.Build.0 = Debug|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|ARM.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|iPhone.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|x64.Build.0 = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{44CA5790-C4A7-4477-BB37-4885BB8478BC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -259,7 +309,7 @@ Global
 		SolutionGuid = {418586BD-60BF-4BD1-A758-AD5B5FF431C2}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
+		SccNumberOfProjects = 6
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://ngotrung.visualstudio.com/
 		SccLocalPath0 = .
@@ -275,5 +325,8 @@ Global
 		SccProjectUniqueName4 = Xamarin_Calculator\\Xamarin_Calculator\\Xamarin_Calculator.csproj
 		SccProjectName4 = Xamarin_Calculator/Xamarin_Calculator
 		SccLocalPath4 = Xamarin_Calculator\\Xamarin_Calculator
+		SccProjectUniqueName5 = Xamarin_Calculator.Wpf\\Xamarin_Calculator.Wpf.csproj
+		SccProjectName5 = Xamarin_Calculator.Wpf
+		SccLocalPath5 = Xamarin_Calculator.Wpf
 	EndGlobalSection
 EndGlobal
