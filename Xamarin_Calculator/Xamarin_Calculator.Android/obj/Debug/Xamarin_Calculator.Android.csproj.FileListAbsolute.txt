@@ -4,7 +4,6 @@ C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calcul
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\com.companyname.appname-Signed.apk
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\Xamarin_Calculator.dll
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\Xamarin_Calculator.pdb
-C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\Xamarin_Calculator.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\Xamarin_Calculator.Android.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\Xamarin_Calculator.Android.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\Xamarin_Calculator.Android.csproj.CopyComplete
@@ -62,6 +61,7 @@ C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calcul
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\linksrc\Mono.Security.pdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\Xamarin_Calculator.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\linksrc\Xamarin_Calculator.Android.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
@@ -91,8 +91,6 @@ C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calcul
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\Xamarin_Calculator.Android.dll
-C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator\bin\Debug\netstandard2.0\Xamarin_Calculator.dll
-C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\bin\Debug\Xamarin_Calculator.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\linksrc\Xamarin_Calculator.Android.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Admin\source\repos\Xamarin_Calculator\Xamarin_Calculator\Xamarin_Calculator.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

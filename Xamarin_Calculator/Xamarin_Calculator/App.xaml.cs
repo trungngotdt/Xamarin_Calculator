@@ -5,6 +5,7 @@ using Xamarin_Calculator.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Prism.DryIoc;
+using Xamarin_Calculator.Service;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Xamarin_Calculator
@@ -29,6 +30,8 @@ namespace Xamarin_Calculator
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.Register<ICompute, Compute>();
+            containerRegistry.Register<MainPageViewModel>();
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage>();
         }

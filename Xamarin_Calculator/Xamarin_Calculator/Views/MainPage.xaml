@@ -2,27 +2,47 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xamarin_Calculator.Views.MainPage"
-             Title="{Binding Title}" 
+             Title="{Binding Title}"
+             
              xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms">
+    
     <ContentPage.Behaviors>
         <b:EventToCommandBehavior EventName="Appearing"
                                   Command="{Binding Loaded}"
-                                  CommandParameter="{x:Reference StacRoot}"/>
+                                  CommandParameter="{x:Reference StackKeyBoard}"/>
         
     </ContentPage.Behaviors>
     <ScrollView Orientation="Horizontal"
                 x:Name="ScrvRoot" 
                 HorizontalOptions="Fill">
         <StackLayout Orientation="Vertical"
-                     x:Name="StacRoot"
-                     HorizontalOptions="StartAndExpand"
-                     VerticalOptions="StartAndExpand">
-            
+                     x:Name="StackRoot">            
             <Label x:Name="LbResult"
-                   BackgroundColor="Red"
-                   Text="{Binding Source={x:Reference ScrvRoot},Path=Width}"
+                   FontSize="Large"
                    HeightRequest="100"
                    WidthRequest="{Binding Source={x:Reference ScrvRoot},Path=Width}"/>
+            <StackLayout Orientation="Horizontal"
+                         x:Name="StackKeyBoard"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand">
+                <Grid WidthRequest="{Binding Source={x:Reference ScrvRoot},Path=Width}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Vertical" 
+                             Grid.Column="0"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="FillAndExpand"
+                             x:Name="StacNumber"/>
+                <StackLayout Orientation="Vertical"
+                             Grid.Column="1"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="FillAndExpand"
+                             x:Name="StacOperation"/>
+            </Grid>
+            </StackLayout>
+            
         </StackLayout>
 
     </ScrollView>
