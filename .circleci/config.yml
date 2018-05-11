@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: mono
+    steps:
+      - checkout
+      - run:
+          name: xamarin
+          command: xbuild Xamarin_Calculator.sln
