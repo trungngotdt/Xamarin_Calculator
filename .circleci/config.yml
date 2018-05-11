@@ -1,1 +1,26 @@
-
+version: 2
+jobs:
+  build:
+    docker:
+      - image: java
+    steps:
+      
+      - run: apt-get update
+      - run: apt-get upgrade -y
+      - run: apt-get install -y software-properties-common
+      - run: apt update
+      - run: apt-get install -y nuget
+      - run: nuget update -self
+      - run: apt-get install -y mono-complete
+      - run: wget http://ftp.hk.debian.org/debian/pool/main/libz/libzip/libzip4_1.1.2-1.1+b1_amd64.deb
+      - run: dpkg -i libzip4_1.1.2-1.1+b1_amd64.deb
+      - run:
+          name: install
+          command: apt-get install -y wget && wget https://jenkins.mono-project.com/view/Xamarin.Android/job/xamarin-android-linux/lastSuccessfulBuild/Azure/processDownloadRequest/xamarin-android/xamarin.android-oss_8.3.99.186_amd64.deb && dpkg -i xamarin.android-oss_8.3.99.186_amd64.deb
+      - run:
+          name: nuget
+          command: nuget restore Xamarin_Calculator.sln
+      - run:
+          name: xamarin
+          command: msbuild Xamarin_Calculator.sln
+      
