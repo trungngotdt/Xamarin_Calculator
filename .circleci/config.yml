@@ -9,4 +9,4 @@ jobs:
           name: xamarin
           command: cd /Library/Frameworks/Mono.framework/Commands/nuget
           command: ls
-          command: mono nuget.exe restore Xamarin_Calculator.sln
+          
