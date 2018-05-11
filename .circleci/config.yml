@@ -7,5 +7,5 @@ jobs:
       - checkout
       - run:
           name: xamarin
-          command:mono nuget.exe restore
+          command: mono nuget.exe restore
           command: msbuild Xamarin_Calculator.sln
