@@ -6,7 +6,10 @@ jobs:
     steps:
       - checkout
       - run:
-          name: xamarin
+          name: nuget
           command: nuget restore Xamarin_Calculator.sln
+      - run:
+          name: xamarin
+          command: msbuild Xamarin_Calculator.sln
       
           
