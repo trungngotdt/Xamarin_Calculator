@@ -6,6 +6,7 @@ jobs:
     steps:
       
       - run: apt-get update
+      - run: apt-get install -y openjdk-7-jre
       - run: apt-get install -y default-jre
       - run: apt-get install -y default-jdk
       - run: add-apt-repository ppa:webupd8team/java
