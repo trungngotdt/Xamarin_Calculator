@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: java
     steps:
-      
+      - checkout
       - run: apt-get update
       - run: apt-get upgrade -y
       - run: apt-get install -y software-properties-common
