@@ -10,8 +10,8 @@ jobs:
       - run: apt-get install -y software-properties-common
       - run: add-apt-repository "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main"
       - run: apt-get update
-      - run: apt-get install -y oracle-java8-installer echo "Yes"
-      - run: apt-get install -y oracle-java8-set-default
+      - run: echo y | apt-get install -y oracle-java8-installer
+      - run: echo y | apt-get install -y oracle-java8-set-default
       - run: export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
       - run: export JRE_HOME="/usr/lib/jvm/java-8-oracle/jre"
       - run: apt update
