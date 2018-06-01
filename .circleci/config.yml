@@ -4,9 +4,7 @@ jobs:
     docker:
       - image: mono
     steps:
-      - run:
-          name: install
-          command: apt-get install -y wget && wget https://jenkins.mono-project.com/view/Xamarin.Android/job/xamarin-android-linux/lastSuccessfulBuild/Azure/processDownloadRequest/xamarin-android/xamarin.android-oss_8.3.99.186_amd64.deb && dpkg -i xamarin.android-oss_8.3.99.186_amd64.deb
+      - checkout
       - run:
           name: nuget
           command: nuget restore Xamarin_Calculator.sln
