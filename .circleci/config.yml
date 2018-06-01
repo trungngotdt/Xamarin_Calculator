@@ -9,7 +9,7 @@ jobs:
       - run: nuget update -self
       - run:
           name: nuget
-          command: nuget restore Xamarin_Calculator.sln
+          command: dotnet restore Xamarin_Calculator.sln
       - run:
           name: xamarin
           command: msbuild Xamarin_Calculator.sln
