@@ -5,6 +5,8 @@ jobs:
       - image: mono
     steps:
       - checkout
+      - run: apt-get install -y nuget
+      - run: nuget update -self
       - run:
           name: nuget
           command: nuget restore Xamarin_Calculator.sln
