@@ -41,7 +41,7 @@ jobs:
       - run: dpkg -i libzip4_1.1.2-1.1+b1_amd64.deb
       - run:
           name: install
-          command: apt-get install -y wget && wget https://jenkins.mono-project.com/view/Xamarin.Android/job/xamarin-android-linux/lastSuccessfulBuild/Azure/processDownloadRequest/xamarin-android/xamarin.android-oss_8.3.99.186_amd64.deb && dpkg -i xamarin.android-oss_8.3.99.186_amd64.deb
+          command: apt-get install -y wget && wget https://jenkins.mono-project.com/view/Xamarin.Android/job/xamarin-android-linux/lastSuccessfulBuild/Azure/processDownloadRequest/xamarin-android/xamarin.android-oss_8.3.99.189_amd64.deb && dpkg -i xamarin.android-oss_8.3.99.189_amd64.deb
       - run:
           name: nuget
           command: nuget restore Xamarin_Calculator.sln
