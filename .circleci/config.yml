@@ -19,12 +19,10 @@ jobs:
       - run: apt-get update
       - run: apt-get upgrade -y
       - run: apt-get install -y software-properties-common
-      - run: add-apt-repository "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main"
       - run: apt-get update
-      - run: yes|apt-get install -y oracle-java8-installer
-      - run: yes|apt-get install -y oracle-java8-set-default
-      - run: export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
-      - run: export JRE_HOME="/usr/lib/jvm/java-8-oracle/jre"
+      - run: apt-get install -y openjdk-11-jdk
+      - run: export JAVA_HOME="/usr/lib/jvm/java-11-oracle"
+      - run: export JRE_HOME="/usr/lib/jvm/java-11-oracle/jre"
       - run: apt update
       - run: apt-get install -y mono-complete
       - run: wget http://ftp.hk.debian.org/debian/pool/main/libz/libzip/libzip4_1.1.2-1.1+b1_amd64.deb
