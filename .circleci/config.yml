@@ -15,20 +15,14 @@ jobs:
       - run: apt-get update
       - run: apt-get install -y dotnet-sdk-2.1
       - run: apt-get install -y nuget
-      - run: nuget update -self
-      - run:
-          name: nuget
-          command: nuget restore Xamarin_Calculator.sln
-      - run:
-          name: xamarin
-          command: dotnet msbuild Xamarin_Calculator.sln
+      - run: nuget update -self      
       - run: apt-get update
       - run: apt-get upgrade -y
       - run: apt-get install -y software-properties-common
       - run: add-apt-repository "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main"
       - run: apt-get update
       - run: y|apt-get install -y oracle-java8-installer
-      - run: Echo Y|apt-get install -y oracle-java8-set-default
+      - run: yes|apt-get install -y oracle-java8-set-default
       - run: export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
       - run: export JRE_HOME="/usr/lib/jvm/java-8-oracle/jre"
       - run: apt update
