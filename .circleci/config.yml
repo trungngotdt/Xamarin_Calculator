@@ -20,9 +20,9 @@ jobs:
       - run: apt-get upgrade -y
       - run: apt-get install -y software-properties-common
       - run: apt-get update
-      - run: apt-get install -y openjdk-8-jdk
-      - run: export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
-      - run: export JRE_HOME="/usr/lib/jvm/java-8-oracle/jre"
+      - run: apt-get install -y openjdk-7-jdk
+      - run: export JAVA_HOME="/usr/lib/jvm/java-7-oracle"
+      - run: export JRE_HOME="/usr/lib/jvm/java-7-oracle/jre"
       - run: apt update
       - run: apt-get install -y mono-complete
       - run: wget http://ftp.hk.debian.org/debian/pool/main/libz/libzip/libzip4_1.1.2-1.1+b1_amd64.deb
