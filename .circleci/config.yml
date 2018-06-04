@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - images: microsoft/dotnet
+      - image: microsoft/dotnet
     steps:
       - checkout
       - run: Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
