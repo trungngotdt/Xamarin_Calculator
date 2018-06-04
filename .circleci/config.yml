@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    docker: microsoft/dotnet
+  steps:
+    - checkout
+    - run: Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+    - run: choco install xamarin-visualstudio
+    - run: choco upgrade xamarin-visualstudio
